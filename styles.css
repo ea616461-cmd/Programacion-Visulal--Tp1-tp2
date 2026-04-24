@@ -1,0 +1,187 @@
+/* ===== RESET BÁSICO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== ESTILO GENERAL ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== NAV ===== */
+nav {
+    background-color: #001d3d;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffc300;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #003566;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* ===== TITULOS ===== */
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #003566;
+    margin-bottom: 10px;
+}
+
+/* ===== MAIN GENERAL ===== */
+main {
+    flex: 1;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== FICHA TECNICA ===== */
+.ficha-tecnica {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+/* ===== SECCION EQUIPO ===== */
+.seccion-equipo {
+    margin-top: 20px;
+}
+
+.lista-equipo {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.lista-equipo li {
+    margin-bottom: 8px;
+}
+
+/* ===== RECURSOS ===== */
+.seccion-recursos ul {
+    margin-top: 10px;
+}
+
+.seccion-recursos a {
+    color: #003566;
+    text-decoration: none;
+}
+
+.seccion-recursos a:hover {
+    text-decoration: underline;
+}
+
+/* ===== BARRA FILTROS ===== */
+.barra-filtros {
+    background: white;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.barra-filtros label {
+    display: block;
+    margin-top: 10px;
+}
+
+.barra-filtros select,
+.barra-filtros button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.barra-filtros button {
+    background-color: #003566;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.barra-filtros button:hover {
+    background-color: #001d3d;
+}
+
+/* ===== CONTENEDOR PROYECTOS ===== */
+.contenedor-proyectos {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ===== TARJETAS ===== */
+.proyecto-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px);
+}
+
+.proyecto-card img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 6px;
+}
+
+/* ===== CONTENIDO ===== */
+.contenido h3 {
+    color: #003566;
+}
+
+.contenido a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffc300;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contenido a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: auto;
+    background-color: #001d3d;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+}
